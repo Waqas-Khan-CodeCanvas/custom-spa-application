@@ -1,0 +1,99 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+#todo-input {
+    border-radius: 8px 0 0 8px;
+    border: 1px solid #dee2e6;
+    padding: 12px;
+}
+
+#todo-form .btn {
+    border-radius: 0 8px 8px 0;
+    padding: 12px 24px;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid #dee2e6;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.todo-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.todo-item.completed .todo-text {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.todo-checkbox {
+    margin-right: 12px;
+}
+
+.todo-text {
+    flex-grow: 1;
+    margin: 0;
+    color: #2c3e50;
+}
+
+.todo-delete {
+    color: #dc3545;
+    background: none;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.todo-delete:hover {
+    opacity: 1;
+}
+
+.btn-group .btn {
+    border-radius: 8px;
+    margin: 0 2px;
+}
+
+#clear-completed {
+    text-decoration: none;
+}
+
+#clear-completed:hover {
+    text-decoration: underline;
+}
+
+/* Animation for new todos */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.todo-item {
+    animation: slideIn 0.3s ease-out;
+} 

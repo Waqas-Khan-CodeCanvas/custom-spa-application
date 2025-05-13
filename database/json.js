@@ -1,0 +1,76 @@
+const jsonData = (()=>{
+    return [
+  {
+    "id": 1,
+    "name": "Ali Khan",
+    "email": "ali@example.com",
+    "password": "ali123",
+    "todos": ["Buy milk", "Complete assignment"]
+  },
+  {
+    "id": 2,
+    "name": "Ayesha Ahmed",
+    "email": "ayesha@example.com",
+    "password": "ayesha123",
+    "todos": ["Read book", "Clean room"]
+  },
+  {
+    "id": 3,
+    "name": "Usman Tariq",
+    "email": "usman@example.com",
+    "password": "usman123",
+    "todos": ["Workout", "Call mom"]
+  },
+  {
+    "id": 4,
+    "name": "Fatima Noor",
+    "email": "fatima@example.com",
+    "password": "fatima123",
+    "todos": ["Cook dinner", "Pay bills"]
+  },
+  {
+    "id": 5,
+    "name": "Zain Ali",
+    "email": "zain@example.com",
+    "password": "zain123",
+    "todos": ["Fix bike", "Write blog post"]
+  },
+  {
+    "id": 6,
+    "name": "Hira Yousaf",
+    "email": "hira@example.com",
+    "password": "hira123",
+    "todos": ["Do laundry", "Water plants"]
+  },
+  {
+    "id": 7,
+    "name": "Bilal Sheikh",
+    "email": "bilal@example.com",
+    "password": "bilal123",
+    "todos": ["Go to market", "Call friend"]
+  },
+  {
+    "id": 8,
+    "name": "Sana Javed",
+    "email": "sana@example.com",
+    "password": "sana123",
+    "todos": ["Finish project", "Buy groceries"]
+  },
+  {
+    "id": 9,
+    "name": "Hamza Rafiq",
+    "email": "hamza@example.com",
+    "password": "hamza123",
+    "todos": ["Clean laptop", "Practice coding"]
+  },
+  {
+    "id": 10,
+    "name": "Mehwish Anwar",
+    "email": "mehwish@example.com",
+    "password": "mehwish123",
+    "todos": ["Study for test", "Visit grandma"]
+  }
+]
+
+});
+console.log(jsonData);

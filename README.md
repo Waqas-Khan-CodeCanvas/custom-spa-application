@@ -1,2 +1,3 @@
-# custom-spa-application
-custom single page application using html , bootstrap, and vanilla javascript projects
+# FocusFlow - ToDo App
+
+A modern, modular To-Do app built with HTML, CSS, and JavaScript using a clean folder structure and MVC principles.

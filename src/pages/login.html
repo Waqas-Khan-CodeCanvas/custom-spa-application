@@ -1,0 +1,28 @@
+<div class="container mx-auto min-vh-100 d-flex justify-content-center align-items-center">
+    <form class="border border-1 rounded p-4" style="width: 400px;" onsubmit="return loginUser(event)">
+      <div class="text-center mb-4">
+        <h2>Login</h2>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" name="password" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-primary w-100 mb-2">Login</button>
+      <div class="text-center">
+        Don't have an account?
+        <!-- <a class="text-primary" type="button" onclick="updateIndexPage('register')" >Register</a>
+          -->
+
+          <a class="text-primary" role="button" onclick="updateIndexPage('register')" >register</a>
+      </div>
+    </form>
+  </div>
